@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;&family=Ubuntu:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1.175rem;
+  font-family: Roboto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(227, 242, 255);
+  letter-spacing: 1px;
+  padding: 0 5rem;
+}
+.menu {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.82;
+  padding: 15px;
+  justify-content: space-between;
+  width: 360px;
+  border-radius: 6px;
+  box-shadow: 4px 4px 8px rgba(95, 95, 95, 0.356),
+    -4px 4px 8px rgba(91, 91, 91, 0.212);
+}
+.menu p {
+  margin: 0px 14px;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 10px;
+  cursor: pointer;
+}
+ul li:hover {
+  background-color: rgb(220, 220, 220);
+  border-radius: 6px;
+  transition: ease-in 0.2s;
+}
+ul li i {
+  margin: 10px;
+}
+
+.fa-brands {
+  font-size: 1.25rem;
+}
+.fa-solid {
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+.rotate {
+  transform: rotate(180deg);
+}
+.options {
+  margin-top: 12px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.82;
+  padding: 6px;
+  width: 358px;
+  border-radius: 6px;
+  box-shadow: 4px 4px 8px rgba(159, 159, 159, 0.32),
+    -4px 4px 8px rgba(159, 159, 159, 0.263);
+}
+.hide {
+  visibility: hidden;
+}
